@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    margin: 0;
+  }
+  canvas{ 
+    display: block;
+  }
+
+  #particles-container{ 
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    background-image: linear-gradient(#eeaeca, #94bbe9);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: 100% 100%; 
+  }
+
+.fundo{
+    background-image: linear-gradient(#eeaeca, #94bbe9);
+    height: 100vh;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.calculadora{
+    position: absolute;
+    background-color: rgba(238, 174, 202, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #c5d8ef;
+    border: none;
+    color: #5b595a;
+    margin: 3px;
+    vertical-align: top;
+}
+
+.botao:hover{
+    background-color: #8fa6c1;
+}
+
+#resultado{
+    background-color: white;
+    width: 207px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: #5b595a;
+    text-align: right;
+    padding: 5px;
+}
+
+footer{
+    background-color: #8fa6c1;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
